@@ -5,3 +5,4 @@ matplotlib.pyplot
 os
 dotenv
 subprocess
+nltk
