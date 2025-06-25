@@ -1,15 +1,12 @@
-import subprocess
-
-cmd = ["python3", "-m", "pip", "install", "textblob"]
-subprocess.run(cmd)
-print("Working")
-
 import streamlit as st
 import requests
 from textblob import TextBlob
 import matplotlib.pyplot as plt
 import os
 from dotenv import load_dotenv
+import nltk
+
+nltk.download("punkt")
 
 # Load .env API key
 load_dotenv()
