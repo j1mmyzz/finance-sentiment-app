@@ -1,5 +1,5 @@
 import subprocess
 
-cmd = ["python3", "-m", "textblob.download_corpora"]
+cmd = ["python3", "-m", "pip", "install", "textblob"]
 subprocess.run(cmd)
 print("Working")
