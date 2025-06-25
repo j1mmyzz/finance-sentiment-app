@@ -4,6 +4,7 @@ from textblob import TextBlob
 import matplotlib.pyplot as plt
 import os
 from dotenv import load_dotenv
+import corpora
 
 # Load .env API key
 load_dotenv()

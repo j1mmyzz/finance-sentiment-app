@@ -4,3 +4,4 @@ textblob
 matplotlib.pyplot
 os
 dotenv
+subprocess
