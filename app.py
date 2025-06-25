@@ -1,4 +1,9 @@
-import corpora
+import subprocess
+
+cmd = ["python3", "-m", "pip", "install", "textblob"]
+subprocess.run(cmd)
+print("Working")
+
 import streamlit as st
 import requests
 from textblob import TextBlob
