@@ -1,3 +1,4 @@
+import corpora
 import streamlit as st
 import requests
 from textblob import TextBlob
